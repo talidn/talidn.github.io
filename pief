@@ -1,17 +1,14 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
     <head>
-        <title>我的室內設計</title>
-
-    </head>
-
+        <title>阿航的室內設計</title>
+    </head>>
     <body>
         <h1>大標題</h1>
-        <img src="https://www.galilee.com.tw/Page/ThemeData_Pic/hash_adad2b7de3681cfaf818afca465b0cf9_1920_10000.jpg"></img>
+        <img src="images/瀑布.jpg"></img>
+        <p>4545488</p>
+        <p>88854885</p>
 
-        <P>asdjfljasdlfjaldsjflafjdfldalfd</P>
-        <p>asdjfljasdlfjaldsjflafjdfldalfd</p>
-
-        <a href="https://www.yahoo.com.tw">這是一個可以前往Yahoo的網址</a>
+        <a href="https://www.google.com">谷哥大神</a>
     </body>
 </html>
