@@ -1,0 +1,16 @@
+h1 {
+    color: #44baf0;    
+}
+
+/* class */
+.test {
+    color: rebeccapurple;
+}
+
+#andy {
+    color: goldenrod;
+}
+
+.apple {
+    color: brown !important;
+}
