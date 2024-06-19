@@ -135,25 +135,32 @@
 					<section id="contact">
 						<div class="inner">
 							<section>
-								<form method="post" action="#">
+								<form method="post" action="#" onsubmit="return mailto()">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">名字</label>
 											<input type="text" name="name" id="name" />
 										</div>
 										<div class="field half">
-											<label for="email">聯絡方式</label>
+											<label for="email">Email</label>
 											<input type="text" name="email" id="email" />
 										</div>
 										<div class="field">
-											<label for="message">需求</label>
+											<label for="message">訊息</label>
 											<textarea name="message" id="message" rows="6"></textarea>
 										</div>
 									</div>
 									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Clear" /></li>
+										<li><input type="submit" value="傳送" class="primary" /></li>
+										<li><input type="reset" value="清除" /></li>
 									</ul>
+									<script>
+										function mailto() {
+											name = document.getElementsByName('name')[0].value; // 把使用者輸入的名稱拿出來用
+											email = document.getElementsByName('email')[0].value; // 把使用者輸入的email拿出來用
+											message = document.getElementsByName('message')[0].value.replaceAll('\n', '%0D%0A'); // 把使用者輸入的內容拿出來用
+											window.location.href = "mailto:pief3253@gmail.com?subject=我沒有問題&body=您好, 我是" + name + ":%0D%0A" + message;
+											return false;
 								</form>
 							</section>
 							<section class="split">
