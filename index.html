@@ -19,26 +19,12 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<a href="index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
+						<a href="index.html" class="logo"><strong>航的室內設計作品</span></a>
 						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
+						
 					</header>
 
-				<!-- Menu -->
-					<nav id="menu">
-						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="landing.html">Landing</a></li>
-							<li><a href="generic.html">Generic</a></li>
-							<li><a href="elements.html">Elements</a></li>
-						</ul>
-						<ul class="actions stacked">
-							<li><a href="#" class="button primary fit">Get Started</a></li>
-							<li><a href="#" class="button fit">Log In</a></li>
-						</ul>
-					</nav>
-
+				
 				<!-- Banner -->
 					<section id="banner" class="major">
 						<div class="inner">
@@ -135,7 +121,7 @@
 					<section id="contact">
 						<div class="inner">
 							<section>
-								<form method="post" action="#" onsubmit="return mailto()">
+								<form method="post" action="#"  onsubmit="return mailto()">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">名字</label>
@@ -154,13 +140,17 @@
 										<li><input type="submit" value="傳送" class="primary" /></li>
 										<li><input type="reset" value="清除" /></li>
 									</ul>
-									<script>
-										function mailto() {
-											name = document.getElementsByName('name')[0].value; // 把使用者輸入的名稱拿出來用
-											email = document.getElementsByName('email')[0].value; // 把使用者輸入的email拿出來用
-											message = document.getElementsByName('message')[0].value.replaceAll('\n', '%0D%0A'); // 把使用者輸入的內容拿出來用
-											window.location.href = "mailto:pief3253@gmail.com?subject=我沒有問題&body=您好, 我是" + name + ":%0D%0A" + message;
-											return false;
+									<!-- 呼叫email程式的語法:start -->
+        <script>
+            function mailto() {
+                name = document.getElementsByName('name')[0].value; // 把使用者輸入的名稱拿出來用
+                email = document.getElementsByName('email')[0].value; // 把使用者輸入的email拿出來用
+                message = document.getElementsByName('message')[0].value.replaceAll('\n', '%0D%0A'); // 把使用者輸入的內容拿出來用
+                window.location.href = "mailto:pief3253@gmail.com?subject=我沒有問題&body=您好, 我是" + name + ":%0D%0A" + message;
+                return false;
+            }
+        </script>
+        <!-- 呼叫email程式的語法:end -->
 								</form>
 							</section>
 							<section class="split">
@@ -195,14 +185,14 @@
 					<footer id="footer">
 						<div class="inner">
 							<ul class="icons">
-								<li><a href="#" class="icon solid fas fa-yen-sign"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								
+								<li><a href="https://www.facebook.com/" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.instagram.com/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								
+								
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Untitled</li><li>Design: <a href="https://talidn.github.io">航的室內設計作品</a></li>
 							</ul>
 						</div>
 					</footer>
