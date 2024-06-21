@@ -1349,3 +1349,5 @@ input, select, textarea {
 				}
 
 		}
+		.KKK::before { color: #00D3B7;}/*before 底色變換*/
+		.kk:hover{color: #5a087a;}/*hover 字體變色*/
